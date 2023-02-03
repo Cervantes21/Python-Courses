@@ -1,0 +1,7 @@
+
+Ejecutar sudo nano ~/.bashrc
+Ir al final del archivo
+Agregar el comando: alias avenv='source venv/bin/activate'
+Guardar presionando ctrl + o y luego salir con ctrl + x
+Reejecutar la configuración de la terminal: source ~/.bashrc
+Activar el entorno vitual avenv
