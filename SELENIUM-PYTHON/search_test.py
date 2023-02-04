@@ -3,15 +3,22 @@ from pyunitreport import HTMLTestRunner
 from selenium import webdriver
 # By nos permite el uso de 2 métodos privados find_elements(selector, 'value') y find_element(By.ID, "search")
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 
 class HomePageTests(unittest.TestCase):
 
     def setUp(self):
     # -----------------------variables---------------------------------- #
+      # --- Brave configure --- # 
+        # brave_path = '/usr/bin/brave-browser'
+        # option = webdriver.ChromeOptions()
+        # option.binary_location = brave_path
+      # --- Chrome-Driver --- # 
         chromedriver = '/usr/bin/chromedriver'
-        driver = self.driver = webdriver.Chrome(executable_path = chromedriver)
+        s = Service(chromedriver)  
     # ------------------------------------------------------------------ #
-        
+        # driver = self.driver = webdriver.Chrome(service=s, options=option) # Resolve for Brave
+        driver = self.driver = webdriver.Chrome(service=s)
     # ---------------Driver Configure-------------- #
         driver.get('http://demo-store.seleniumacademy.com/')
         driver.maximize_window()
