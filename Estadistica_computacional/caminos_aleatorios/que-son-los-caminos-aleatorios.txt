@@ -1,0 +1,11 @@
+Caminos Aleatorios
+
+¿Qué son los caminos aleatorios?
+
+Los caminos aleatorios son un tipo de simulación que elige aleatoriamente una decisión dentro de un conjunto de decisiones válidas. Se utiliza en muchos campos del conocimiento cuando los sistemas no son deterministas e incluyen elementos de aleatoriedad.
+
+Un camino aleatorio es una secuencia de pasos aleatorios que se toman a partir de una ubicación inicial en un espacio determinado. Los caminos aleatorios se pueden utilizar en programación para simular el comportamiento de un objeto o sistema que se mueve al azar.
+
+Existen varios algoritmos para generar caminos aleatorios en programación. Por ejemplo, uno de los más simples es el algoritmo de Camino Aleatorio de Borracho, donde un objeto se mueve en una dirección aleatoria durante un cierto número de pasos, y luego se repite el proceso. Otro algoritmo común es el de la Marcha Aleatoria, donde un objeto se mueve en una dirección aleatoria en cada paso, con igual probabilidad de moverse hacia arriba, abajo, a la izquierda o a la derecha.
+
+Los caminos aleatorios se utilizan en muchas áreas de la programación, desde la simulación de sistemas complejos hasta la generación de gráficos aleatorios. Por ejemplo, en la inteligencia artificial, se pueden utilizar caminos aleatorios para simular el comportamiento de un agente en un entorno desconocido, y en la criptografía, se pueden utilizar para generar claves criptográficas aleatorias.
