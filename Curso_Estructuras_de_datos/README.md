@@ -118,3 +118,16 @@ Suponga que tiene un dataset con muchos datos, una colección de libros, música
       - Conjunto ordenado
 ---
 
+# Operaciones Esenciales en Colecciones:
+Algunas operaciones básicas responden necesidades puntuales como saber:
+
+- Tamaño: Las dimensiones
+- Pertenencia: Si un elemento pertenece o no.
+- Recorrido: Pasar por los elementos
+- String: Converir la colección a un string.
+- Igualdad: Comparar colecciones
+- Concatenación: Unir o sumar listas
+- Conversión de tipo: Convertir tipos de datos entre si
+- Insertar, Remover, Reemplazar, Acceder a n elementos en n posición.
+
+Aquí se hace referencia a los métodos nativos de python para hacer ordenamientos, insertar, acceder y remover elementos. sort(), remove(), pop() Estos métodos son útiles para determinadas tareas.
