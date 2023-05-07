@@ -95,4 +95,26 @@ Conclusión:
 
 Suponga que tiene un dataset con muchos datos, una colección de libros, música, fotos, y desea ordenar esta colección, ante esta situación siempre existe el Trade Off entre rapidez/costo/memoria El conocimeinto de las propiedades de las colecciones te facilitará la selección de estructura de datos según sea el caso y velar por un software eficiente.
 
+## Taxonomía:
+
+- Colección:
+  - Grafos
+  - Jerárquicas
+    - Árbol binario
+    - Montículo
+  - Lineales:
+    - Lista
+      - Lista Ordenada
+    - Cola
+      - Cola de prioridad
+    - Pila
+    - String
+  - Desordenadas:
+    - Bolsa
+      - Bolsa Ordenada
+    - Diccionario
+      - Diccionario ordenado
+    - Conjunto
+      - Conjunto ordenado
+---
 
