@@ -131,3 +131,23 @@ Algunas operaciones básicas responden necesidades puntuales como saber:
 - Insertar, Remover, Reemplazar, Acceder a n elementos en n posición.
 
 Aquí se hace referencia a los métodos nativos de python para hacer ordenamientos, insertar, acceder y remover elementos. sort(), remove(), pop() Estos métodos son útiles para determinadas tareas.
+
+---
+
+# Colecciones Incorporadas en Python
+
+- Listas: Propósito general, de índices con tamaños dinámicos. Ordenables lista =[].
+Usaria las listas para almacenar una serie de números, una lista de palabras,y básicamente cualquier cosa.
+- Tuplas: Inmutables, no se pueden añadir más elementos. Utiles para constantes por ejemplo coordenadas, direcciones. Es de tipo secuencial. tupla =()
+
+Las usuaría cuando sé exactamente el tamaño que tendrán mis datos.
+
+- Conjuntos: Almacenan objetos no duplicados.(Teoría de conjuntos), son de acceso rápido, aceptan operaciones lógicas, son desordenados.set() conjunto={1,2,3,4}
+
+Usaría un casteo entre conjuntos y listas cuando quiero eliminar duplicados de una lista.
+
+- Diccionarios: Pares de llaver valor, arrays asociativos (hash maps), son desordenados, y muy rápidos para hacer consultas. diccionario ={'Llave':"Valor"}
+
+Los usaría para almacenar datos, listas, objetos que perfectamente pueden volverse un dataframe, o un defaultdict
+
+---
