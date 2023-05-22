@@ -17,7 +17,7 @@ class SinglyLinkedList:
             current = self.tail
             
             while current.next:
-                curent = current.next
+                current = current.next
                 
                 current.next = node
         
